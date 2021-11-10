@@ -1,0 +1,112 @@
+.nav {
+  min-height: 5.5rem;
+  margin-top: -32px;
+}
+
+.container {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  margin-top: 2.25rem;
+}
+.nav__logo{
+  text-decoration: none;
+  font-size: 2.15rem;
+  font-weight: 350;
+  color: #fff;
+  float: right;
+  margin: 8px;
+}
+.nav__list {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-size: 2.15rem;
+  font-weight: 350;
+  padding: 16px;
+  margin: 16px;
+  color: #fff;
+  float: right;
+}
+
+.intro__welcome {
+  color: #fff;
+  position: relative;
+}
+
+.welcome-content h2 {
+  font-size: 3.4rem;
+  font-weight: 400;
+}
+
+.welcome-content p {
+  width: 65.3333% !important;
+  opacity: 0.7;
+  margin-top: 4px;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+
+.intro__welcome-button {
+  margin-top: 12px;
+  color: #fff;
+  background-color: var(--backgroud-color);
+}
+
+.intro__welcome-img {
+  position: relative;
+  margin-left: -32px;
+}
+
+.intro__welcome-info {
+  position: absolute;
+  top: 12px;
+  right: 24px;
+}
+.intro__welcome-info h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.intro__welcome-info p {
+  opacity: 0.7;
+  display: inline-block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.news-box {
+  align-items: center;
+  background-color: #fff;
+  height: 280px;
+  width: 300px;
+
+  border-radius: 25px;
+
+  position: relative;
+}
+.news-box__header {
+    height: calc(1/4*280px);
+    color: #fff;
+    background-color: #a5c3cf;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.btn-allNews{
+    position: absolute;
+    bottom: -66px;
+    left: 88px;
+}
+
+
+.footer{
+    padding: 64px 16px 16px 0;
+    font-size: 24px;
+    
+}

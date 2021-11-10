@@ -1,0 +1,32 @@
+#header{
+    min-height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{  
+}
+.header__logo img{
+    width: 50px;
+    padding: 16px;
+}
+
+.header__navbar{
+    min-height: 42px;
+}
+.navbar__list{
+    padding-left: 0;
+    margin-top: 4px auto;
+}
+
+.navbar__list-item{
+    text-transform: uppercase;
+    width: 100;
+    font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    list-style: none;
+    padding: 8px 16px 32px;
+    display: inline-block;
+}
+
